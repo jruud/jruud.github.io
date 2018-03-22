@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Open Sans';
+  color: #131313;
+}
+
+h1 {
+  font-family: 'Bree Serif';
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+img[src$=".svg"] {
+  width: 150px;
+  height: 150px;
+}
+
+.flexWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.linkImages {
+  display: flex;
+  justify-content: center;
+  padding: 3em 6em 3em 6em;
+}
+
+/* Main Header Styles */
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #be4430;
+  height: 200px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 125px;
+  height: 125px;
+  border: 3px solid white;
+}
+
+.logo p {
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  margin: -.1em 0em 0em .15em;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav li {
+  padding: 0em 3em 0em 3em;
+  font-weight: bold;
+  font-size: 1.15em;
+  padding: .75em;
+}
+
+.links-header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  background-color: #be4430;
+}
+
+.links-header h2 {
+  color: white;
+  margin: 0px;
+}
+
+#logo {
+  margin-left: 2em;
+}
+
+#mobile-nav-button {
+  margin-right: 2em;
+}
+
+#mobile-nav-button:hover {
+  cursor: pointer;
+}
+
+#nav-wrapper {
+  display: none;
+  background-color: #e2e3e3;
+  padding: 1em;
+}
+
+#nav-items {
+  margin: 2em 0em 2em 0em;
+}
+
+#nav-items li {
+  font-size: 1.5em;
+}
+
+#arrow-down {
+  width: 60px;
+  height: 60px;
+}
+
+#arrow-up {
+  width: 60px;
+  height: 60px;
+  display: none;
+}
+
+#motto {
+  display: flex;
+  justify-content: center;
+  padding: 3em 0em 3em 0em;
+}
+
+#introduction, #skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#profile {
+  background-color: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3em 0em 3em 0em;
+}
+
+#profile p {
+  color: white;
+  width: 50%;
+  padding-top: 40px;
+  font-size: 1em;
+}
+
+#avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+#development, #photography {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+#development:hover, #photography:hover {
+  background-color: #e2e3e3;
+  transition: 300ms;
+}
+
+
+#links {
+  margin: 8em 0em 8em 0em;
+}
+
+
+/* Styles for Photography Page */
