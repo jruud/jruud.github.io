@@ -6,4 +6,10 @@ $(document).ready( function(){
     $("#arrow-up").toggle();
 
   });
+
+  $(window).on('resize', function () {
+  if ($(window).width() > 768) {
+    $("#mobile-nav-wrapper").hide();
+  };
+});
 });

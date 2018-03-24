@@ -29,14 +29,23 @@
         <img src="images/arrow-up.png" id="arrow-up">
       </div>
 
-    </div>
-      <div id="mobile-nav-wrapper">
-        <ul  class="nav" id="nav-items">
-          <li>Home</li>
-          <li>Photography</li>
-          <li>Web Development</li>
+      <div id="main-nav-wrapper">
+        <ul  class="flex-wrapper" id="main-nav-items">
+          <a href="index.html"><li>Home</li></a>
+          <a href="photography.html"><li>Photography</li></a>
+          <a href="development.html"><li>Web Development</li></a>
         </ul>
       </div>
+
+    </div>
+      <div id="mobile-nav-wrapper">
+        <ul  class="flex-wrapper-column" id="mobile-nav-items">
+          <a href="index.html"><li>Home</li></a>
+          <a href="photography.html"><li>Photography</li></a>
+          <a href="development.html"><li>Web Development</li></a>
+        </ul>
+      </div>
+
   </div>
 </div>
 
@@ -62,11 +71,11 @@
 <div id="skills">
   <div class="container-fluid">
     <div class="row">
-      <div class="col container" id="development">
+      <div class="col-12 col-md-6 container" id="development" onclick="window.location.href='development.html'">
         <h2>Web Development</h2>
       </div>
 
-      <div class="col container" id="photography">
+      <div class="col-12 col-md-6 container" id="photography" onclick="window.location.href='photography.html'">
         <h2>Photography</h2>
       </div>
     </div>
@@ -97,6 +106,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script src="mobile-nav.js"></script>
+  <script src="styles.js"></script>
 </body>
 
 </html>
