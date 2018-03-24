@@ -109,7 +109,7 @@ img[src$=".svg"] {
   cursor: pointer;
 }
 
-#nav-wrapper {
+#mobile-nav-wrapper {
   display: none;
   background-color: #e2e3e3;
   padding: 1em;
@@ -134,10 +134,17 @@ img[src$=".svg"] {
   display: none;
 }
 
-#motto {
+#mobile-motto {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  padding: 3em 0em 3em 0em;
+  align-items: center;
+  padding: 5em;
+}
+
+
+#motto {
+  display: none;
 }
 
 #introduction, #skills {
@@ -157,7 +164,7 @@ img[src$=".svg"] {
 
 #profile p {
   color: white;
-  width: 50%;
+  width: 48%;
   padding-top: 40px;
   font-size: 1em;
 }
@@ -188,3 +195,57 @@ img[src$=".svg"] {
 
 
 /* Styles for Photography Page */
+
+/* Media Queries */
+
+/* Small Breakpoint */
+
+@media (min-width: 576px) {
+  #mobile-motto {
+    margin-left: 5em;
+  }
+}
+
+/* Medium Breakpoint */
+
+@media (min-width: 768px) {
+  .logo-wrapper {
+    height: 125px;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 85px;
+    height: 85px;
+  }
+
+  .logo p {
+    font-size: 1.75em;
+  }
+
+  #logo {
+    margin-left: 5.5em;
+  }
+
+  #mobile-nav-button {
+    display: none;
+  }
+
+  #motto {
+    display: flex;
+    justify-content: center;
+    padding: 5em;
+  }
+
+  #mobile-motto {
+    display: none;
+  }
+}
+
+/* XL Breakpoint */
+
+@media (min-width: 1200px) {
+  #logo {
+    margin-left: 8em;
+  }
+}
