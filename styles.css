@@ -33,25 +33,6 @@ a:hover {
   background-color: rgb(255, 255, 255, .1);
 }
 
-.flex-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.flex-wrapper-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.linkImages {
-  display: flex;
-  justify-content: center;
-  padding: 3em 6em 3em 6em;
-}
-
 /* Main Header Styles */
 
 .logo-wrapper {
@@ -89,6 +70,31 @@ a:hover {
   padding: .75em;
 }
 
+/* Body Class Styles*/
+
+.flex-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-wrapper-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.linkImages {
+  display: flex;
+  justify-content: center;
+  padding: 6em;
+}
+
+.linkImages:hover {
+  background-color: #e2e3e3;
+}
+
 .links-header{
   display: flex;
   align-items: center;
@@ -101,6 +107,8 @@ a:hover {
   color: white;
   margin: 0px;
 }
+
+
 
 #logo {
   margin-left: 2em;
@@ -241,7 +249,7 @@ a:hover {
 }
 
 #links {
-  margin: 8em 0em 8em 0em;
+  margin-bottom: 8em;
 }
 
 
