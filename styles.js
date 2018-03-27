@@ -1,17 +1,9 @@
 $(document).ready( function() {
-  $("#photography").on('mouseenter', function() {
-    $("#photography > h2").css("color", "white");
+  $(".content-square").on('mouseenter', function() {
+    $("h2", this).css("color", "white");
   });
 
-  $("#photography").on('mouseleave', function() {
-    $("#photography > h2").css("color", "inherit");
-  });
-
-  $("#development").on('mouseenter', function() {
-    $("#development > h2").css("color", "white");
-  });
-
-  $("#development").on('mouseleave', function() {
-    $("#development > h2").css("color", "inherit");
+  $(".content-square").on('mouseleave', function() {
+    $("h2", this).css("color", "inherit");
   });
 });

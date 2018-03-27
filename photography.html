@@ -13,7 +13,7 @@
 
   <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="secondary-styles.css"
+  <link rel="stylesheet" href="secondary-styles.css">
 </head>
 
 <body>
@@ -45,25 +45,53 @@
             <a href="photography.html"><li>Photography</li></a>
             <a href="development.html"><li>Web Development</li></a>
           </ul>
-        </div>
+      </div>
 
     </div>
   </div>
 
-<div class="flexWrapper" id="photographyModule">
-  <div class="flexWrapper">
-    <h1>Photography</h1>
-  </div>
-
-  <div  id="photos">
-  </div>
+<div class="flex-wrapper" id="photography-heading">
+    <h1 class="mx-auto mt-5 mb-5">Photography</h1>
 </div>
+
+<div class="container-fluid"  id="types">
+    <div class="row">
+      <a class="col-12 col-md-6 container content-square" id="weddings" href='https://joshruud.smugmug.com/Portfolios/Josh-Ruud-Wedding-Portfolio/' target="_blank">
+        <h2>Weddings</h2>
+      </a>
+
+      <a class="col-12 col-md-6 container content-square" id="families" href='https://joshruud.smugmug.com/Client-Galleries/Family-Photos' target="_blank">
+        <h2>Families</h2>
+      </a>
+
+      <a class="col-12 col-md-6 container content-square" id="engagements" href='https://joshruud.smugmug.com/Client-Galleries/Engagements' target="_blank">
+        <h2>Engagements</h2>
+      </a>
+
+      <a class="col-12 col-md-6 container content-square" id="kids" href='https://joshruud.smugmug.com/Client-Galleries/Kids' target="_blank">
+        <h2>Kids</h2>
+      </a>
+
+      <a class="col-12 col-md-6 container content-square" id="real-estate" href='https://joshruud.smugmug.com/Client-Galleries/Real-Estate' target="_blank">
+        <h2>Real Estate</h2>
+      </a>
+
+      <a class="col-12 col-md-6 container content-square" id="headshots" href="https://joshruud.smugmug.com/Client-Galleries/Headshots" target="_blank">
+        <h2>Headshots</h2>
+      </a>
+    </div>
+</div>
+
+<!-- To the top Button -->
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#9650;</button>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="mobile-nav.js"></script>
+<script src="styles.js"></script>
+<script src="scroll-button.js"></script>
 </body>
 
 </html>

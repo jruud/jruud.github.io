@@ -2,3 +2,83 @@ h1 {
   font-size: 3.5em;
   padding: .5em;
 }
+
+#weddings::before {
+  content: "";
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  background-image: url("images/weddings.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: .20;
+  z-index: 1;
+}
+
+#families::before {
+  content: "";
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  background-image: url("images/families.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: .20;
+  z-index: 1;
+}
+
+#engagements::before {
+  content: "";
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  background-image: url("images/engagements.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: .20;
+  z-index: 1;
+}
+
+#kids::before {
+  content: "";
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  background-image: url("images/kids.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: .20;
+  z-index: 1;
+}
+
+#real-estate::before {
+  content: "";
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  background-image: url("images/real-estate.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: .20;
+  z-index: 1;
+}
+
+#headshots::before {
+  content: "";
+  position: absolute;
+  height: 500px;
+  width: 100%;
+  background-image: url("images/headshots.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: .20;
+  z-index: 1;
+}
+
+#photography-heading {
+  height: 300px;
+}
+
+/*=========================
+ Media Queries
+ =========================*/
