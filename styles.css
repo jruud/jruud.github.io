@@ -111,28 +111,35 @@ a:hover {
   justify-content: center;
 }
 
-.linkImages {
-  display: flex;
-  justify-content: center;
-  padding: 6em;
+/* Footer Styles */
+
+.footer {
+  min-height: 150px;
+  background-color: #2b2b2b;
+  flex-basis: auto;
 }
 
-.linkImages:hover {
-  background-color: #e2e3e3;
-}
-
-.links-header{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 125px;
-  background-color: #be4430;
-}
-
-.links-header h2 {
+.footer h3 {
+  font-weight: bold;
   color: white;
-  margin: 0px;
+  margin: 100px 0px 50px 0px;
+  font-size: 2em;
 }
+
+.footer-links {
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.footer-links img {
+  width: 75px;
+  height: 75px;
+}
+
+.footer-links a {
+  padding: 50px;
+}
+
 
 /*=========================
  Index.html ID Styles
@@ -239,19 +246,6 @@ a:hover {
   border: 3px solid white;
 }
 
-/* #development, #photography {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 500px;
-} */
-
-/* #development:hover, #photography:hover {
-  background-color: #216376;
-  transition: 300ms;
-  cursor: pointer;
-} */
-
 #development::before {
   content: "";
   position: absolute;
@@ -272,9 +266,6 @@ a:hover {
   z-index: 1;
 }
 
-#links {
-  margin-bottom: 8em;
-}
 
 #myBtn {
     display: none; /* Hidden by default */
@@ -293,7 +284,7 @@ a:hover {
 }
 
 #myBtn:hover {
-    background-color: #5D91A0; 
+    background-color: #5D91A0;
 }
 
 /*=========================
@@ -305,6 +296,11 @@ a:hover {
 @media (min-width: 576px) {
   #mobile-motto {
     margin-left: 5em;
+  }
+
+  .footer-links {
+    flex-direction: row;
+    margin-bottom: 25px;
   }
 }
 
@@ -362,6 +358,29 @@ a:hover {
 
   #mobile-motto {
     display: none;
+  }
+}
+
+/* Large Breakpoint */
+
+@media (min-width: 992px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer h3 {
+    margin: 0px;
+  }
+
+  .footer-links {
+    margin: 0px;
+  }
+
+  .footer-links img {
+    width: 50px;
+    height: 50px;
   }
 }
 
