@@ -85,6 +85,17 @@ a:hover {
  Body Class Styles
  =========================*/
 
+/* Main wrapper for content-square*/
+
+  .content-row {
+    justify-content: center;
+    margin: 1em 0em 1em 0em;
+  }
+
+  .content-row h2 {
+    text-align: center;
+  }
+
  .content-square {
    display: flex;
    justify-content: center;
@@ -97,6 +108,14 @@ a:hover {
    transition: 300ms;
    cursor: pointer;
  }
+
+.secondary-square {
+  margin: 1em 1em 1em 1em;
+}
+
+ /* .dev-square {
+      Reserved to target the squares on the development page apart from the squares on the photography page.
+ } */
 
 .flex-wrapper {
   display: flex;
@@ -118,6 +137,7 @@ a:hover {
 
 .heading h1 {
   color: white;
+  text-align: center;
 }
 
 /* Footer Styles */
@@ -221,7 +241,6 @@ a:hover {
   padding: 5em;
 }
 
-
 #motto {
   display: none;
 }
@@ -275,6 +294,7 @@ a:hover {
   z-index: 1;
 }
 
+/* To the top button styles */
 
 #myBtn {
     display: none; /* Hidden by default */
@@ -303,14 +323,18 @@ a:hover {
 /* Small Breakpoint */
 
 @media (min-width: 576px) {
-  #mobile-motto {
-    margin-left: 5em;
-  }
+
 
   .footer-links {
     flex-direction: row;
     margin-bottom: 25px;
   }
+
+  #mobile-motto {
+    margin-left: 5em;
+  }
+
+
 }
 
 /* Medium Breakpoint */
@@ -332,6 +356,10 @@ a:hover {
 
   #logo {
     margin-left: 5.5em;
+  }
+
+  #logo:hover {
+    transform: skew(3deg, -15deg);
   }
 
   #main-nav-wrapper {
@@ -398,11 +426,6 @@ a:hover {
 @media (min-width: 1200px) {
   #logo {
     margin-left: 8em;
-  }
-
-  #logo:hover {
-
-    transform: skew(3deg, -15deg);
   }
 
   #main-nav-wrapper {
