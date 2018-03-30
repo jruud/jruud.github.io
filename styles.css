@@ -274,10 +274,6 @@ a:hover {
   border: 3px solid white;
 }
 
-#development {
-  text-align: center;
-}
-
 #development::before {
   content: "";
   position: absolute;
@@ -286,6 +282,10 @@ a:hover {
   background-image: url("images/development-preview.jpg");
   opacity: .20;
   z-index: 1;
+}
+
+#photography {
+  text-align: center;
 }
 
 #photography::before {
