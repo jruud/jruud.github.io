@@ -274,6 +274,10 @@ a:hover {
   border: 3px solid white;
 }
 
+#development {
+  text-align: center;
+}
+
 #development::before {
   content: "";
   position: absolute;
